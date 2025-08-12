@@ -9,6 +9,7 @@ import {
   Building,
   Calendar
 } from 'lucide-react';
+import OptimizedImage from '@/components/OptimizedImage';
 
 const fadeIn = {
   initial: { opacity: 0, y: 30 },
@@ -31,10 +32,13 @@ export default function Contact() {
       <section className="relative py-16 md:py-24 w-full overflow-hidden">
         {/* Background Image */}
         <div className="absolute inset-0 z-0">
-          <img
+          <OptimizedImage
             src="/images/contact-background.jpg"
             alt="Let's connect and build something amazing"
-            className="w-full h-full object-cover"
+            fill
+            priority
+            className="object-cover"
+            sizes="100vw"
           />
           <div className="absolute inset-0 bg-white/85"></div>
         </div>

@@ -3,6 +3,7 @@
 import { motion } from 'framer-motion';
 import { ArrowRight } from 'lucide-react';
 import Link from 'next/link';
+import OptimizedImage from '@/components/OptimizedImage';
 
 const fadeIn = {
   initial: { opacity: 0, y: 30 },
@@ -19,10 +20,14 @@ export default function Home() {
           {/* Hero Image - Portrait */}
           <div className="w-full max-w-2xl mx-auto mb-16 flex justify-center">
             <div className="w-48 h-48 md:w-64 md:h-64 rounded-full overflow-hidden shadow-lg">
-              <img
+              <OptimizedImage
                 src="/portrait.jpg"
                 alt="Enno Lohmann - Fullstack Developer"
+                width={256}
+                height={256}
+                priority
                 className="w-full h-full object-cover"
+                sizes="(max-width: 768px) 192px, 256px"
               />
             </div>
           </div>

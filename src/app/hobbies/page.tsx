@@ -9,6 +9,7 @@ import {
   Heart,
   Dice6
 } from 'lucide-react';
+import OptimizedImage from '@/components/OptimizedImage';
 
 const fadeIn = {
   initial: { opacity: 0, y: 30 },
@@ -120,10 +121,13 @@ export default function Hobbies() {
                   >
                     {/* Image Header */}
                     <div className="h-32 bg-gradient-to-br from-gray-100 to-gray-200 relative overflow-hidden">
-                      <img
+                      <OptimizedImage
                         src={hobby.image}
                         alt={hobby.title}
+                        width={500}
+                        height={350}
                         className="w-full h-full object-cover opacity-80"
+                        sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw"
                       />
                       <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent"></div>
                       <div className="absolute bottom-3 left-4 flex items-center">

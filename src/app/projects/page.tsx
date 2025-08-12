@@ -2,6 +2,7 @@
 
 import { motion } from 'framer-motion';
 import { Briefcase, Calendar, Users, ArrowRight, Clock } from 'lucide-react';
+import OptimizedImage from '@/components/OptimizedImage';
 
 const fadeIn = {
   initial: { opacity: 0, y: 30 },
@@ -429,10 +430,13 @@ export default function Projects() {
                         <div className="bg-white rounded-2xl shadow-lg border border-gray-100 overflow-hidden hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1 hover:scale-105 relative">
                           {/* Project Header */}
                           <div className="relative h-48 bg-gradient-to-br from-gray-100 to-gray-200 overflow-hidden">
-                            <img
+                            <OptimizedImage
                               src={project.image}
                               alt={project.title}
+                              width={600}
+                              height={400}
                               className="w-full h-full object-cover"
+                              sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 600px"
                             />
                             <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent"></div>
                             <div className="absolute top-4 right-4">
