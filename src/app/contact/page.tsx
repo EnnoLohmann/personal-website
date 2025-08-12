@@ -7,7 +7,6 @@ import {
   Linkedin,
   Github,
   Building,
-  Phone,
   Calendar
 } from 'lucide-react';
 
@@ -33,7 +32,7 @@ export default function Contact() {
         {/* Background Image */}
         <div className="absolute inset-0 z-0">
           <img
-            src="https://images.unsplash.com/photo-1557804506-669a67965ba0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2074&q=80"
+            src="/images/contact-background.jpg"
             alt="Let's connect and build something amazing"
             className="w-full h-full object-cover"
           />
@@ -48,11 +47,11 @@ export default function Contact() {
             className="max-w-6xl mx-auto text-center"
           >
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-light text-gray-900 mb-8 leading-tight">
-              Let's Connect! 👋
+              Let&apos;s Connect! 👋
             </h1>
             <p className="text-lg md:text-xl leading-relaxed text-gray-700 max-w-4xl mx-auto">
               Have an exciting project in mind or looking for a passionate developer to join your team?
-              I'd love to hear about your ideas and explore how we can create something amazing together.
+              I&apos;d love to hear about your ideas and explore how we can create something amazing together.
             </p>
           </motion.div>
         </div>
@@ -178,10 +177,10 @@ export default function Contact() {
                     ))}
                   </div>
                   <p className="text-gray-700 leading-relaxed mb-6">
-                    "Enno was a great asset to our team, especially in the frontend area. His ability to quickly grasp requirements and implement them with high quality was remarkable. He stood out for his quick familiarization with new topics and actively contributed to improving our processes and systems."
+                    &ldquo;Enno was a great asset to our team, especially in the frontend area. His ability to quickly grasp requirements and implement them with high quality was remarkable. He stood out for his quick familiarization with new topics and actively contributed to improving our processes and systems.&rdquo;
                   </p>
                   <p className="text-gray-700 leading-relaxed">
-                    "Particularly positive was his ability to take on tasks independently and execute them efficiently and pragmatically, without getting lost in unnecessary discussions about perfect approaches, which promoted an agile approach."
+                    &ldquo;Particularly positive was his ability to take on tasks independently and execute them efficiently and pragmatically, without getting lost in unnecessary discussions about perfect approaches, which promoted an agile approach.&rdquo;
                   </p>
                 </div>
                 <div className="border-t border-blue-200 pt-4">
@@ -199,10 +198,10 @@ export default function Contact() {
                     ))}
                   </div>
                   <p className="text-gray-700 leading-relaxed mb-6">
-                    "With his extensive and extremely well-founded expertise, he consistently achieved significantly above-average results. Mr. Lohmann always showed an extraordinarily high level of commitment and motivation."
+                    &ldquo;With his extensive and extremely well-founded expertise, he consistently achieved significantly above-average results. Mr. Lohmann always showed an extraordinarily high level of commitment and motivation.&rdquo;
                   </p>
                   <p className="text-gray-700 leading-relaxed">
-                    "His work style was characterized by very careful planning and structure. He showed exceptional commitment and excellent performance in both qualitative and quantitative terms."
+                    &ldquo;His work style was characterized by very careful planning and structure. He showed exceptional commitment and excellent performance in both qualitative and quantitative terms.&rdquo;
                   </p>
                 </div>
                 <div className="border-t border-green-200 pt-4">

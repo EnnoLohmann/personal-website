@@ -1,7 +1,7 @@
 'use client';
 
 import { motion } from 'framer-motion';
-import { Code, Database, Cloud, Shield, Award, Download, Server, Wrench, Globe, Layers, TestTube, Settings, GitBranch, Monitor, Zap } from 'lucide-react';
+import { Code, Database, Cloud, Shield, Award, Server, Wrench, Globe, Layers, TestTube, Settings, GitBranch, Monitor, Zap } from 'lucide-react';
 
 const fadeIn = {
   initial: { opacity: 0, y: 30 },
@@ -21,7 +21,7 @@ const technologies = [
   {
     category: "PROGRAMMING LANGUAGES",
     icon: Code,
-    image: "https://images.unsplash.com/photo-1637937459053-c788742455be?fm=jpg&q=80&w=1200&ixlib=rb-4.1.0",
+    image: "/images/tech/programming-languages.jpg",
     skills: [
       "JavaScript",
       "TypeScript",
@@ -33,7 +33,7 @@ const technologies = [
   {
     category: "FRONTEND FRAMEWORKS",
     icon: Monitor,
-    image: "https://images.unsplash.com/photo-1561736778-92e52a7769ef?fm=jpg&q=80&w=1200&ixlib=rb-4.1.0",
+    image: "/images/tech/frontend-frameworks.jpg",
     skills: [
       "Angular",
       "React",
@@ -53,7 +53,7 @@ const technologies = [
   {
     category: "BACKEND FRAMEWORKS",
     icon: Server,
-    image: "https://images.unsplash.com/photo-1667984390553-7f439e6ae401?fm=jpg&q=80&w=1200&ixlib=rb-4.1.0",
+    image: "/images/tech/backend-frameworks.jpg",
     skills: [
       "Spring",
       "Spring Boot",
@@ -71,7 +71,7 @@ const technologies = [
   {
     category: "DATABASES",
     icon: Database,
-    image: "https://images.unsplash.com/photo-1629904853716-f0bc54eea481?fm=jpg&q=80&w=1200&ixlib=rb-4.1.0",
+    image: "/images/tech/databases.jpg",
     skills: [
       "PostgreSQL",
       "PSQL",
@@ -83,7 +83,7 @@ const technologies = [
   {
     category: "CLOUD & DEVOPS",
     icon: Cloud,
-    image: "https://images.unsplash.com/photo-1667984390538-3dea7a3fe33d?fm=jpg&q=80&w=1200&ixlib=rb-4.1.0",
+    image: "/images/tech/cloud-devops.jpg",
     skills: [
       "AWS",
       "AWS Lambda",
@@ -96,7 +96,7 @@ const technologies = [
   {
     category: "CI/CD & PROJECT TOOLS",
     icon: GitBranch,
-    image: "https://images.unsplash.com/photo-1600132806370-bf17e65e942f?fm=jpg&q=80&w=1200&ixlib=rb-4.1.0",
+    image: "/images/tech/cicd-tools.jpg",
     skills: [
       "GitLab CI",
       "Jenkins",
@@ -118,7 +118,7 @@ const technologies = [
   {
     category: "DEVELOPMENT TOOLS",
     icon: Wrench,
-    image: "https://images.unsplash.com/photo-1561883088-039e53143d73?fm=jpg&q=80&w=1200&ixlib=rb-4.1.0",
+    image: "/images/tech/development-tools.jpg",
     skills: [
       "IntelliJ IDEA",
       "Visual Studio Code",
@@ -135,7 +135,7 @@ const technologies = [
   {
     category: "FRONTEND TECHNOLOGIES",
     icon: Globe,
-    image: "https://images.unsplash.com/photo-1690627931320-16ac56eb2588?fm=jpg&q=80&w=1200&ixlib=rb-4.1.0",
+    image: "/images/tech/frontend-technologies.jpg",
     skills: [
       "HTML",
       "CSS",
@@ -146,7 +146,7 @@ const technologies = [
   {
     category: "TESTING",
     icon: TestTube,
-    image: "https://images.unsplash.com/photo-1667984390527-850f63192709?fm=jpg&q=80&w=1200&ixlib=rb-4.1.0",
+    image: "/images/tech/testing.jpg",
     skills: [
       "Junit",
       "Jest",
@@ -160,7 +160,7 @@ const technologies = [
   {
     category: "BUILD TOOLS",
     icon: Settings,
-    image: "https://images.unsplash.com/photo-1667984390535-6d03cff0b11a?fm=jpg&q=80&w=1200&ixlib=rb-4.1.0",
+    image: "/images/tech/build-tools.jpg",
     skills: [
       "Maven",
       "Gradle",
@@ -170,7 +170,7 @@ const technologies = [
   {
     category: "ARCHITECTURE & SERVICES",
     icon: Layers,
-    image: "https://images.unsplash.com/photo-1667984390533-64bdefe719ea?fm=jpg&q=80&w=1200&ixlib=rb-4.1.0",
+    image: "/images/tech/architecture-services.jpg",
     skills: [
       "Services (SOA)",
       "Microservices",
@@ -181,7 +181,7 @@ const technologies = [
   {
     category: "API & INTERFACES",
     icon: Zap,
-    image: "https://images.unsplash.com/photo-1642427749670-f20e2e76ed8c?fm=jpg&q=80&w=1200&ixlib=rb-4.1.0",
+    image: "/images/tech/api-interfaces.jpg",
     skills: [
       "REST",
       "OpenAPI",
@@ -193,7 +193,7 @@ const technologies = [
   {
     category: "METHODOLOGIES",
     icon: Shield,
-    image: "https://images.unsplash.com/photo-1629904853893-c2c8981a1dc5?fm=jpg&q=80&w=1200&ixlib=rb-4.1.0",
+    image: "/images/tech/methodologies.jpg",
     skills: [
       "Scrum",
       "Kanban",
@@ -311,7 +311,7 @@ export default function Technologies() {
             </div>
 
             <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 w-full">
-              {technologies.map((tech, index) => {
+              {technologies.map((tech) => {
                 const IconComponent = tech.icon;
                 return (
                   <motion.div
@@ -377,7 +377,7 @@ export default function Technologies() {
             <div className="mb-16">
               <h3 className="text-2xl font-light text-gray-900 mb-8 text-center">Education</h3>
               <div className="grid md:grid-cols-2 gap-6 max-w-4xl mx-auto">
-                {education.map((edu, index) => (
+                {education.map((edu) => (
                   <motion.div
                     key={edu.degree}
                     variants={fadeIn}
@@ -404,7 +404,7 @@ export default function Technologies() {
             <div>
               <h3 className="text-2xl font-light text-gray-900 mb-8 text-center">Certifications & Workshops</h3>
               <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
-                {certifications.map((cert, index) => (
+                {certifications.map((cert) => (
                   <motion.div
                     key={cert.name}
                     variants={fadeIn}

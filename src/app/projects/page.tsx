@@ -1,7 +1,7 @@
 'use client';
 
 import { motion } from 'framer-motion';
-import { Briefcase, Calendar, Users, Target, ArrowRight, Clock } from 'lucide-react';
+import { Briefcase, Calendar, Users, ArrowRight, Clock } from 'lucide-react';
 
 const fadeIn = {
   initial: { opacity: 0, y: 30 },
@@ -381,7 +381,7 @@ export default function Projects() {
               Projects
             </h1>
             <p className="text-lg md:text-xl leading-relaxed text-gray-700 max-w-4xl mx-auto">
-              A showcase of meaningful projects where I've applied my fullstack development skills
+              A showcase of meaningful projects where I&apos;ve applied my fullstack development skills
               to solve real-world problems and create impactful software solutions.
             </p>
           </motion.div>

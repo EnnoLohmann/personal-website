@@ -1,7 +1,7 @@
 'use client';
 
 import { motion } from 'framer-motion';
-import { Briefcase, ArrowRight } from 'lucide-react';
+import { ArrowRight } from 'lucide-react';
 import Link from 'next/link';
 
 const fadeIn = {
@@ -40,7 +40,7 @@ export default function Home() {
 
             <div className="space-y-8 text-lg md:text-xl leading-relaxed text-gray-700 max-w-4xl mx-auto">
               <p>
-                As a passionate fullstack developer specializing in Java and modern web frameworks, I've been helping clients across diverse industries bring their software visions to life for over eight years.
+                As a passionate fullstack developer specializing in Java and modern web frameworks, I&apos;ve been helping clients across diverse industries bring their software visions to life for over eight years.
               </p>
 
               <div className="grid md:grid-cols-2 gap-12 mt-16">
@@ -54,7 +54,7 @@ export default function Home() {
                 <div>
                   <h2 className="text-sm uppercase tracking-wider text-gray-500 mb-4">QUALITY</h2>
                   <p className="text-base text-gray-600 leading-relaxed">
-                    I'm committed to delivering software excellence through clean, maintainable code, comprehensive testing, and performance optimization. Quality isn't just a goal—it's a fundamental principle that guides every line of code I write.
+                    I&apos;m committed to delivering software excellence through clean, maintainable code, comprehensive testing, and performance optimization. Quality isn&apos;t just a goal—it&apos;s a fundamental principle that guides every line of code I write.
                   </p>
                 </div>
               </div>
@@ -103,15 +103,15 @@ export default function Home() {
               <div className="grid md:grid-cols-2 gap-16 items-center">
                 <div className="space-y-6 text-lg leading-relaxed text-gray-700">
                   <p>
-                    My passion for software development began over eight years ago, and since then, I've had the privilege of working on everything from <Link href="/projects" className="text-blue-600 hover:text-blue-800 underline">large-scale insurance platforms</Link> to innovative case management systems for government agencies.
+                    My passion for software development began over eight years ago, and since then, I&apos;ve had the privilege of working on everything from <Link href="/projects" className="text-blue-600 hover:text-blue-800 underline">large-scale insurance platforms</Link> to innovative case management systems for government agencies.
                   </p>
 
                   <p>
-                    What drives me most is the intersection of technical excellence and human impact. Whether I'm building <Link href="/technologies" className="text-blue-600 hover:text-blue-800 underline">full-stack solutions with Java and Angular</Link> or architecting cloud-native applications, I always keep the end user's experience at the forefront.
+                    What drives me most is the intersection of technical excellence and human impact. Whether I&apos;m building <Link href="/technologies" className="text-blue-600 hover:text-blue-800 underline">full-stack solutions with Java and Angular</Link> or architecting cloud-native applications, I always keep the end user&apos;s experience at the forefront.
                   </p>
 
                   <p>
-                    Beyond the code, I believe in fostering collaborative environments where knowledge flows freely. From mentoring junior developers to facilitating cross-functional workshops, I've learned that the best software emerges from diverse perspectives working in harmony.
+                    Beyond the code, I believe in fostering collaborative environments where knowledge flows freely. From mentoring junior developers to facilitating cross-functional workshops, I&apos;ve learned that the best software emerges from diverse perspectives working in harmony.
                   </p>
                 </div>
 
@@ -126,7 +126,7 @@ export default function Home() {
                   <div className="bg-white p-6 rounded-lg shadow-sm">
                     <h3 className="text-sm uppercase tracking-wider text-gray-500 mb-3">Philosophy</h3>
                     <p className="text-gray-700">
-                      Quality isn't just about bug-free code—it's about creating solutions that are maintainable, scalable, and genuinely useful. Every line of code should serve a purpose and contribute to the bigger picture.
+                      Quality isn&apos;t just about bug-free code—it&apos;s about creating solutions that are maintainable, scalable, and genuinely useful. Every line of code should serve a purpose and contribute to the bigger picture.
                     </p>
                   </div>
                 </div>
@@ -150,7 +150,7 @@ export default function Home() {
               Beyond the Code
             </h2>
             <p className="text-lg text-gray-600 mb-12 max-w-3xl mx-auto">
-              When I'm not crafting software solutions, you'll find me exploring virtual worlds, training with my four-legged companions, or diving into the latest tech innovations.
+              When I&apos;m not crafting software solutions, you&apos;ll find me exploring virtual worlds, training with my four-legged companions, or diving into the latest tech innovations.
             </p>
 
             <div className="grid md:grid-cols-3 gap-8">
@@ -228,7 +228,7 @@ export default function Home() {
               >
                 <div className="text-3xl mb-4">🚀</div>
                 <h3 className="text-lg font-medium text-gray-900 mb-2 group-hover:text-blue-600">Projects</h3>
-                <p className="text-gray-600 text-sm mb-4">Discover the impactful software solutions I've built for diverse industries</p>
+                <p className="text-gray-600 text-sm mb-4">Discover the impactful software solutions I&apos;ve built for diverse industries</p>
                 <div className="flex items-center text-blue-600 text-sm font-medium">
                   View Work <ArrowRight className="ml-1 w-3 h-3 group-hover:translate-x-1 transition-transform" />
                 </div>
@@ -252,7 +252,7 @@ export default function Home() {
               >
                 <div className="text-3xl mb-4">💬</div>
                 <h3 className="text-lg font-medium text-gray-900 mb-2 group-hover:text-blue-600">Contact</h3>
-                <p className="text-gray-600 text-sm mb-4">Let's connect and discuss how we can work together on your next project</p>
+                <p className="text-gray-600 text-sm mb-4">Let&apos;s connect and discuss how we can work together on your next project</p>
                 <div className="flex items-center text-blue-600 text-sm font-medium">
                   Get in Touch <ArrowRight className="ml-1 w-3 h-3 group-hover:translate-x-1 transition-transform" />
                 </div>
