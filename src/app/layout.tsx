@@ -2,6 +2,8 @@ import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import Navbar from "../components/Navbar";
+import { NextIntlClientProvider } from 'next-intl';
+import { getMessages } from 'next-intl/server';
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -41,22 +43,26 @@ export const metadata: Metadata = {
   },
 };
 
-export default function RootLayout({
+export default async function RootLayout({
   children,
 }: Readonly<{
   children: React.ReactNode;
 }>) {
+  const messages = await getMessages();
+
   return (
     <html lang="en">
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
-        <Navbar />
-        <main className="w-full">
-          <div className="w-full max-w-none">
-            {children}
-          </div>
-        </main>
+        <NextIntlClientProvider messages={messages}>
+          <Navbar />
+          <main className="w-full">
+            <div className="w-full max-w-none">
+              {children}
+            </div>
+          </main>
+        </NextIntlClientProvider>
       </body>
     </html>
   );

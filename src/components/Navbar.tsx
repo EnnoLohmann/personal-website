@@ -5,19 +5,22 @@ import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 import { motion, AnimatePresence } from 'framer-motion';
 import { Menu, X, ArrowUpRight } from 'lucide-react';
-
-const navItems = [
-  { name: 'About', href: '/', description: 'Who I am' },
-  { name: 'Technologies', href: '/technologies', description: 'My expertise' },
-  { name: 'Projects', href: '/projects', description: 'What I\'ve built' },
-  { name: 'Hobbies', href: '/hobbies', description: 'Life beyond work' },
-  { name: 'Contact', href: '/contact', description: 'Let\'s connect' },
-];
+import { useTranslations } from 'next-intl';
+import LanguageSwitcher from './LanguageSwitcher';
 
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
   const [hoveredItem, setHoveredItem] = useState<string | null>(null);
   const pathname = usePathname();
+  const t = useTranslations('nav');
+
+  const navItems = [
+    { name: t('about'), href: '/', description: t('aboutDescription') },
+    { name: t('technologies'), href: '/technologies', description: t('technologiesDescription') },
+    { name: t('projects'), href: '/projects', description: t('projectsDescription') },
+    { name: t('hobbies'), href: '/hobbies', description: t('hobbiesDescription') },
+    { name: t('contact'), href: '/contact', description: t('contactDescription') },
+  ];
 
   return (
     <>
@@ -103,8 +106,10 @@ export default function Navbar() {
               })}
             </div>
 
-            {/* Spacer for balance - Desktop */}
-            <div className="hidden lg:block w-32"></div>
+            {/* Language Switcher - Desktop */}
+            <div className="hidden lg:block">
+              <LanguageSwitcher />
+            </div>
 
             {/* Mobile menu button - Enhanced */}
             <button
@@ -204,6 +209,11 @@ export default function Navbar() {
                       </motion.div>
                     );
                   })}
+                </div>
+
+                {/* Language Switcher - Mobile */}
+                <div className="mt-6 pt-6 border-t border-gray-200">
+                  <LanguageSwitcher />
                 </div>
               </div>
             </motion.div>

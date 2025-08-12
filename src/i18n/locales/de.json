@@ -1,0 +1,109 @@
+{
+  "nav": {
+    "about": "Über mich",
+    "aboutDescription": "Wer ich bin",
+    "technologies": "Technologien",
+    "technologiesDescription": "Meine Expertise",
+    "projects": "Projekte",
+    "projectsDescription": "Was ich gebaut habe",
+    "hobbies": "Hobbys",
+    "hobbiesDescription": "Leben jenseits der Arbeit",
+    "contact": "Kontakt",
+    "contactDescription": "Lass uns vernetzen",
+    "language": "Sprache"
+  },
+  "home": {
+    "title": "Enno Lohmann",
+    "subtitle": "Fullstack-Entwickler & Software-Architekt",
+    "description": "Als leidenschaftlicher Fullstack-Entwickler mit Spezialisierung auf Java und moderne Web-Frameworks helfe ich seit über acht Jahren Kunden aus verschiedenen Branchen dabei, ihre Software-Visionen zum Leben zu erwecken.",
+    "experienceTitle": "ERFAHRUNG",
+    "experienceText": "Von kleinen Drei-Entwickler-Teams bis hin zu großen digitalen Transformationsprojekten mit über 120 Stakeholdern gedeihe ich in kollaborativen Umgebungen und glaube an die Kraft funktionsübergreifender Teamarbeit, um außergewöhnliche Ergebnisse zu erzielen.",
+    "qualityTitle": "QUALITÄT",
+    "qualityText": "Ich bin der Bereitstellung von Software-Exzellenz durch sauberen, wartbaren Code, umfassende Tests und Leistungsoptimierung verpflichtet. Qualität ist nicht nur ein Ziel—es ist ein grundlegendes Prinzip, das jede Zeile Code leitet, die ich schreibe.",
+    "stats": {
+      "yearsExperience": "Jahre Erfahrung",
+      "projectStakeholders": "Projekt-Stakeholder",
+      "technologiesMastered": "Beherrschte Technologien"
+    },
+    "journeyTitle": "Meine Reise",
+    "journeyText1": "Meine Leidenschaft für Softwareentwicklung begann vor über acht Jahren, und seitdem hatte ich das Privileg, an allem zu arbeiten, von großen Versicherungsplattformen bis hin zu innovativen Fallmanagementsystemen für Regierungsbehörden.",
+    "journeyText2": "Was mich am meisten antreibt, ist die Schnittstelle zwischen technischer Exzellenz und menschlicher Wirkung. Ob ich Full-Stack-Lösungen mit Java und Angular entwickle oder Cloud-native Anwendungen architekturiere, ich behalte immer die Erfahrung des Endbenutzers im Vordergrund.",
+    "journeyText3": "Jenseits des Codes glaube ich daran, kollaborative Umgebungen zu fördern, in denen Wissen frei fließt. Vom Mentoring von Junior-Entwicklern bis zur Moderation funktionsübergreifender Workshops habe ich gelernt, dass die beste Software aus vielfältigen Perspektiven entsteht, die in Harmonie arbeiten.",
+    "currentFocusTitle": "Aktueller Fokus",
+    "currentFocusText": "Leitung der Full-Stack-Entwicklung auf Versicherungsplattformen der nächsten Generation, die moderne Web-Technologien mit robusten Backend-Systemen kombinieren, um zu transformieren, wie Kunden mit Versicherungsdienstleistungen interagieren.",
+    "philosophyTitle": "Philosophie",
+    "philosophyText": "Qualität geht nicht nur um fehlerfreien Code—es geht darum, Lösungen zu schaffen, die wartbar, skalierbar und wirklich nützlich sind. Jede Zeile Code sollte einem Zweck dienen und zum größeren Bild beitragen.",
+    "beyondCodeTitle": "Jenseits des Codes",
+    "beyondCodeText": "Wenn ich nicht gerade Software-Lösungen entwickle, findest du mich dabei, wie ich virtuelle Welten erkunde, mit meinen vierbeinigen Begleitern trainiere oder in die neuesten Tech-Innovationen eintauche.",
+    "gamingTitle": "Gaming-Enthusiast",
+    "gamingText": "Vom strategischen Denken in Age of Empires bis zu den herausfordernden Welten von Dark Souls",
+    "dogTrainingTitle": "Hundetraining",
+    "dogTrainingText": "Starke Bindungen und Kommunikation mit unseren vierbeinigen Begleitern aufbauen",
+    "techInnovationTitle": "Tech-Innovation",
+    "techInnovationText": "Immer auf der Erkundung neuer Technologien und ihrer potenziellen Anwendungen",
+    "discoverMore": "Entdecke mehr über meine Interessen",
+    "exploreMoreTitle": "Bereit, mehr zu erkunden?",
+    "exploreMoreText": "Tauche tiefer in meine berufliche Reise, technische Expertise und die Projekte ein, die meine Karriere geprägt haben.",
+    "technologiesCard": "Erkunde meinen technischen Stack und meine Expertise in modernen Entwicklungstools",
+    "projectsCard": "Entdecke die wirkungsvollen Software-Lösungen, die ich für verschiedene Branchen entwickelt habe",
+    "hobbiesCard": "Lerne die Person hinter dem Code durch meine persönlichen Interessen kennen",
+    "contactCard": "Lass uns vernetzen und besprechen, wie wir an deinem nächsten Projekt zusammenarbeiten können",
+    "viewSkills": "Fähigkeiten ansehen",
+    "viewWork": "Arbeit ansehen",
+    "learnMore": "Mehr erfahren",
+    "getInTouch": "Kontakt aufnehmen",
+    "copyright": "© 2024 Enno Lohmann. Alle Rechte vorbehalten."
+  },
+  "technologies": {
+    "title": "Technologien & Expertise",
+    "subtitle": "Ein umfassender Überblick über meine technischen Fähigkeiten und beruflichen Zertifizierungen",
+    "programmingLanguages": "PROGRAMMIERSPRACHEN",
+    "frontendFrameworks": "FRONTEND-FRAMEWORKS",
+    "backendFrameworks": "BACKEND-FRAMEWORKS", 
+    "databases": "DATENBANKEN",
+    "cloudPlatforms": "CLOUD-PLATTFORMEN",
+    "devopsTools": "DEVOPS & TOOLS",
+    "certifications": "Berufliche Zertifizierungen",
+    "certificationsSubtitle": "Branchenweit anerkannte Qualifikationen, die meine Expertise bestätigen"
+  },
+  "projects": {
+    "title": "Projekte & Erfahrung",
+    "subtitle": "Eine Präsentation meiner beruflichen Arbeit und wichtigsten Beiträge in verschiedenen Branchen",
+    "viewDetails": "Details ansehen",
+    "technologies": "Technologien",
+    "duration": "Dauer",
+    "role": "Rolle"
+  },
+  "hobbies": {
+    "title": "Hobbys & Interessen",
+    "subtitle": "Leben jenseits des Codes - Leidenschaften erkunden, die Kreativität und Balance fördern",
+    "learnMore": "Mehr erfahren"
+  },
+  "contact": {
+    "title": "Lass uns vernetzen",
+    "subtitle": "Bereit für eine Zusammenarbeit oder möchtest einfach nur Hallo sagen? Ich würde gerne von dir hören.",
+    "email": "E-Mail",
+    "phone": "Telefon",
+    "location": "Standort",
+    "social": "Social Media",
+    "form": {
+      "name": "Name",
+      "email": "E-Mail",
+      "subject": "Betreff",
+      "message": "Nachricht",
+      "send": "Nachricht senden",
+      "sending": "Wird gesendet...",
+      "success": "Nachricht erfolgreich gesendet!",
+      "error": "Fehler beim Senden der Nachricht. Bitte versuche es erneut."
+    }
+  },
+  "common": {
+    "loading": "Lädt...",
+    "error": "Ein Fehler ist aufgetreten",
+    "retry": "Erneut versuchen",
+    "close": "Schließen",
+    "back": "Zurück",
+    "next": "Weiter",
+    "previous": "Vorherige"
+  }
+}

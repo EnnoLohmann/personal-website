@@ -1,0 +1,109 @@
+{
+  "nav": {
+    "about": "About",
+    "aboutDescription": "Who I am",
+    "technologies": "Technologies",
+    "technologiesDescription": "My expertise",
+    "projects": "Projects",
+    "projectsDescription": "What I've built",
+    "hobbies": "Hobbies",
+    "hobbiesDescription": "Life beyond work",
+    "contact": "Contact",
+    "contactDescription": "Let's connect",
+    "language": "Language"
+  },
+  "home": {
+    "title": "Enno Lohmann",
+    "subtitle": "Fullstack Developer & Software Architect",
+    "description": "As a passionate fullstack developer specializing in Java and modern web frameworks, I've been helping clients across diverse industries bring their software visions to life for over eight years.",
+    "experienceTitle": "EXPERIENCE",
+    "experienceText": "From intimate three-developer teams to large-scale digital transformation projects with 120+ stakeholders, I thrive in collaborative environments and believe in the power of cross-functional teamwork to deliver exceptional results.",
+    "qualityTitle": "QUALITY",
+    "qualityText": "I'm committed to delivering software excellence through clean, maintainable code, comprehensive testing, and performance optimization. Quality isn't just a goal—it's a fundamental principle that guides every line of code I write.",
+    "stats": {
+      "yearsExperience": "Years Experience",
+      "projectStakeholders": "Project Stakeholders",
+      "technologiesMastered": "Technologies Mastered"
+    },
+    "journeyTitle": "My Journey",
+    "journeyText1": "My passion for software development began over eight years ago, and since then, I've had the privilege of working on everything from large-scale insurance platforms to innovative case management systems for government agencies.",
+    "journeyText2": "What drives me most is the intersection of technical excellence and human impact. Whether I'm building full-stack solutions with Java and Angular or architecting cloud-native applications, I always keep the end user's experience at the forefront.",
+    "journeyText3": "Beyond the code, I believe in fostering collaborative environments where knowledge flows freely. From mentoring junior developers to facilitating cross-functional workshops, I've learned that the best software emerges from diverse perspectives working in harmony.",
+    "currentFocusTitle": "Current Focus",
+    "currentFocusText": "Leading full-stack development on next-generation insurance platforms, combining modern web technologies with robust backend systems to transform how customers interact with insurance services.",
+    "philosophyTitle": "Philosophy",
+    "philosophyText": "Quality isn't just about bug-free code—it's about creating solutions that are maintainable, scalable, and genuinely useful. Every line of code should serve a purpose and contribute to the bigger picture.",
+    "beyondCodeTitle": "Beyond the Code",
+    "beyondCodeText": "When I'm not crafting software solutions, you'll find me exploring virtual worlds, training with my four-legged companions, or diving into the latest tech innovations.",
+    "gamingTitle": "Gaming Enthusiast",
+    "gamingText": "From strategic thinking in Age of Empires to the challenging worlds of Dark Souls",
+    "dogTrainingTitle": "Dog Training",
+    "dogTrainingText": "Building strong bonds and communication with our four-legged companions",
+    "techInnovationTitle": "Tech Innovation",
+    "techInnovationText": "Always exploring emerging technologies and their potential applications",
+    "discoverMore": "Discover more about my interests",
+    "exploreMoreTitle": "Ready to Explore More?",
+    "exploreMoreText": "Dive deeper into my professional journey, technical expertise, and the projects that have shaped my career.",
+    "technologiesCard": "Explore my technical stack and expertise across modern development tools",
+    "projectsCard": "Discover the impactful software solutions I've built for diverse industries",
+    "hobbiesCard": "Get to know the person behind the code through my personal interests",
+    "contactCard": "Let's connect and discuss how we can work together on your next project",
+    "viewSkills": "View Skills",
+    "viewWork": "View Work",
+    "learnMore": "Learn More",
+    "getInTouch": "Get in Touch",
+    "copyright": "© 2024 Enno Lohmann. All rights reserved."
+  },
+  "technologies": {
+    "title": "Technologies & Expertise",
+    "subtitle": "A comprehensive overview of my technical skills and professional certifications",
+    "programmingLanguages": "PROGRAMMING LANGUAGES",
+    "frontendFrameworks": "FRONTEND FRAMEWORKS", 
+    "backendFrameworks": "BACKEND FRAMEWORKS",
+    "databases": "DATABASES",
+    "cloudPlatforms": "CLOUD PLATFORMS",
+    "devopsTools": "DEVOPS & TOOLS",
+    "certifications": "Professional Certifications",
+    "certificationsSubtitle": "Industry-recognized credentials that validate my expertise"
+  },
+  "projects": {
+    "title": "Projects & Experience",
+    "subtitle": "A showcase of my professional work and key contributions across various industries",
+    "viewDetails": "View Details",
+    "technologies": "Technologies",
+    "duration": "Duration",
+    "role": "Role"
+  },
+  "hobbies": {
+    "title": "Hobbies & Interests",
+    "subtitle": "Life beyond code - exploring passions that fuel creativity and balance",
+    "learnMore": "Learn More"
+  },
+  "contact": {
+    "title": "Let's Connect",
+    "subtitle": "Ready to collaborate or just want to say hello? I'd love to hear from you.",
+    "email": "Email",
+    "phone": "Phone",
+    "location": "Location",
+    "social": "Social",
+    "form": {
+      "name": "Name",
+      "email": "Email",
+      "subject": "Subject",
+      "message": "Message",
+      "send": "Send Message",
+      "sending": "Sending...",
+      "success": "Message sent successfully!",
+      "error": "Failed to send message. Please try again."
+    }
+  },
+  "common": {
+    "loading": "Loading...",
+    "error": "An error occurred",
+    "retry": "Retry",
+    "close": "Close",
+    "back": "Back",
+    "next": "Next",
+    "previous": "Previous"
+  }
+}
