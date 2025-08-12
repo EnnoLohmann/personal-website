@@ -68,20 +68,20 @@ export default function Navbar() {
                     href={item.href}
                     onMouseEnter={() => setHoveredItem(item.name)}
                     onMouseLeave={() => setHoveredItem(null)}
-                    className="relative group px-4 py-2 rounded-2xl transition-all duration-300 border-2 border-transparent"
+                    className="relative group px-4 py-3 rounded-2xl transition-all duration-300 border-2 border-transparent w-[180px] flex flex-col items-center h-[60px] justify-center"
                   >
-                    <div className="relative z-10">
-                      <div className={`text-base font-medium transition-colors ${
+                    <div className="relative z-10 flex flex-col items-center justify-center h-full">
+                      <div className={`text-base font-medium transition-colors whitespace-nowrap ${
                         pathname === item.href
                           ? `${colors.text} font-semibold`
                           : 'text-gray-600 group-hover:text-gray-900'
                       }`}>
                         {item.name}
                       </div>
-                      <div className={`text-sm transition-all duration-300 mt-1 ${
+                      <div className={`text-sm transition-all duration-300 whitespace-nowrap mt-0.5 ${
                         hoveredItem === item.name || pathname === item.href
-                          ? 'text-gray-500 opacity-100 translate-y-0'
-                          : 'text-gray-400 opacity-0 -translate-y-1'
+                          ? 'text-gray-500 opacity-100 translate-y-0 max-h-6'
+                          : 'text-gray-400 opacity-0 -translate-y-1 max-h-0 overflow-hidden'
                       }`}>
                         {item.description}
                       </div>
